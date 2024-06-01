@@ -34,9 +34,21 @@ The code follows SOLID principles, which helps keep the system scalable, maintai
 
 ### Country Listing
 
-- **Search Functionality**: Users can search for countries by name.
+- **ListView State Management**: The app effectively handles different states like loading, empty, failure, and loaded.
+
+  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/2d2f9cbe-6960-4db5-9c96-94187ad14bcc" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.34" width="200" height="420">
+  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/4f54d438-0a4b-4f1e-9d9d-ceb04c962ad0" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.40" width="200" height="420">
+  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/b5b2dd92-5a77-4d0d-b1ab-02edd008fa6b" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.40" width="200" height="420">
+  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/cd2fabe0-a319-4e21-adc9-bd46d57aeefa" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.40" width="200" height="420">
+
 - **Population Filtering**: Users can filter countries based on population sizes.
-- **Robust State Management**: The app effectively handles different states like loading, empty, failure, and loaded.
+  
+  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/4b8aaa1d-a30d-4059-a670-aabf4ea7a661" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.40" width="200" height="420">
+  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/5b03561c-0ba0-40dd-8ac0-dff4cede7a96" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.40" width="200" height="420">
+
+- **Search Functionality**: Users can search for countries by name.
+
+  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/c5e5aa9e-d119-44ae-855f-b77a0b8a1c62" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.34" width="200" height="420">
 
 ## Improvements
 
@@ -58,14 +70,20 @@ The code follows SOLID principles, which helps keep the system scalable, maintai
 The project is fully documented using DocC. To view the documentation:
 1. Build the project as described above.
 2. Access the documentation through Xcode to get detailed insights into the codebase.
+   
+![image](https://github.com/karthiikmk/wrkspot/assets/15947675/c31647c9-2fd6-4abe-83da-e37cbedc182b)
+
 
 ### Testing
 
 The ViewModels are fully unit tested, ensuring the business logic is reliable and the app is maintainable. You can generate a code coverage report to see the extent of the tests.
+![Screenshot 2024-06-01 at 4 44 12 PM](https://github.com/karthiikmk/wrkspot/assets/15947675/5f61f5aa-78c6-4f3c-a707-4c422c88428a)
 
 ### Previews
 
 All views and components support previews in the Xcode canvas, allowing for easy UI development and iteration.
+![image](https://github.com/karthiikmk/wrkspot/assets/15947675/5983d071-52d9-4d53-b2ea-8eb25e07a3e4)
+
 
 ## Conclusion
 
