@@ -7,36 +7,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255F86CB2C0A7F62003B0CE2 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86CA2C0A7F62003B0CE2 /* SearchView.swift */; };
+		255F86CE2C0A85DD003B0CE2 /* CountryApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86CD2C0A85DD003B0CE2 /* CountryApiService.swift */; };
+		255F86D02C0A8ABE003B0CE2 /* CountryApiURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86CF2C0A8ABE003B0CE2 /* CountryApiURLRequest.swift */; };
+		255F86D82C0A8D87003B0CE2 /* CountryListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86D72C0A8D87003B0CE2 /* CountryListViewModelTest.swift */; };
+		255F86DF2C0A8E44003B0CE2 /* WrkSpotError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86DE2C0A8E44003B0CE2 /* WrkSpotError.swift */; };
+		255F86E12C0A8F98003B0CE2 /* CountrySearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86E02C0A8F98003B0CE2 /* CountrySearchService.swift */; };
+		255F86E32C0B0408003B0CE2 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86E22C0B0408003B0CE2 /* PlaceholderView.swift */; };
+		255F86E52C0B0441003B0CE2 /* EmptyPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86E42C0B0441003B0CE2 /* EmptyPlaceholderView.swift */; };
+		255F86E72C0B05EF003B0CE2 /* FailedPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86E62C0B05EF003B0CE2 /* FailedPlaceholderView.swift */; };
+		255F86EA2C0B0649003B0CE2 /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86E92C0B0649003B0CE2 /* FlagImage.swift */; };
+		255F86EC2C0B06C3003B0CE2 /* RowTrailingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86EB2C0B06C3003B0CE2 /* RowTrailingText.swift */; };
+		255F86EE2C0B0C59003B0CE2 /* DateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86ED2C0B0C59003B0CE2 /* DateProvider.swift */; };
+		255F86F02C0B0CA7003B0CE2 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86EF2C0B0CA7003B0CE2 /* HomeViewModelTests.swift */; };
+		255F86F22C0B0F07003B0CE2 /* BluetoothDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F86F12C0B0F07003B0CE2 /* BluetoothDeviceService.swift */; };
 		258B7D402C0A1B3C0082C771 /* WrkSpotAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D3F2C0A1B3C0082C771 /* WrkSpotAppApp.swift */; };
-		258B7D422C0A1B3C0082C771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D412C0A1B3C0082C771 /* ContentView.swift */; };
 		258B7D442C0A1B3D0082C771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258B7D432C0A1B3D0082C771 /* Assets.xcassets */; };
 		258B7D482C0A1B3D0082C771 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258B7D472C0A1B3D0082C771 /* Preview Assets.xcassets */; };
+		258B7D502C0A1BB30082C771 /* CoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 258B7D4F2C0A1BB30082C771 /* CoreKit */; };
+		258B7D522C0A1BB30082C771 /* DIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 258B7D512C0A1BB30082C771 /* DIKit */; };
+		258B7D542C0A1BB30082C771 /* LoggerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 258B7D532C0A1BB30082C771 /* LoggerKit */; };
+		258B7D562C0A1BB30082C771 /* NetworkKit in Frameworks */ = {isa = PBXBuildFile; productRef = 258B7D552C0A1BB30082C771 /* NetworkKit */; };
+		258B7D582C0A1BB30082C771 /* SerializationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 258B7D572C0A1BB30082C771 /* SerializationKit */; };
+		258B7D5D2C0A20AF0082C771 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D5C2C0A20AF0082C771 /* Country.swift */; };
+		258B7D5F2C0A20C30082C771 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D5E2C0A20C30082C771 /* Media.swift */; };
+		258B7D632C0A21240082C771 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D622C0A21240082C771 /* CountryViewModel.swift */; };
+		258B7D662C0A3EB90082C771 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D652C0A3EB90082C771 /* HomeView.swift */; };
+		258B7D682C0A3ECF0082C771 /* CountriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D672C0A3ECF0082C771 /* CountriesListView.swift */; };
+		258B7D6A2C0A40BB0082C771 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D692C0A40BB0082C771 /* HomeViewModel.swift */; };
+		258B7D6C2C0A42D40082C771 /* PopulationFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D6B2C0A42D40082C771 /* PopulationFilter.swift */; };
+		258B7D6E2C0A4AEC0082C771 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 258B7D642C0A3E080082C771 /* countries.json */; };
+		258B7D702C0A4BF30082C771 /* CountryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D6F2C0A4BF30082C771 /* CountryRow.swift */; };
+		258B7D732C0A4E060082C771 /* SwiftUI+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D722C0A4E060082C771 /* SwiftUI+Ext.swift */; };
+		258B7D792C0A68CA0082C771 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B7D782C0A68CA0082C771 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		255F86D92C0A8D87003B0CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 258B7D342C0A1B3C0082C771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 258B7D3B2C0A1B3C0082C771;
+			remoteInfo = WrkSpotApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		255F86CA2C0A7F62003B0CE2 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		255F86CD2C0A85DD003B0CE2 /* CountryApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryApiService.swift; sourceTree = "<group>"; };
+		255F86CF2C0A8ABE003B0CE2 /* CountryApiURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryApiURLRequest.swift; sourceTree = "<group>"; };
+		255F86D52C0A8D87003B0CE2 /* WrkSpotAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WrkSpotAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255F86D72C0A8D87003B0CE2 /* CountryListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModelTest.swift; sourceTree = "<group>"; };
+		255F86DE2C0A8E44003B0CE2 /* WrkSpotError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrkSpotError.swift; sourceTree = "<group>"; };
+		255F86E02C0A8F98003B0CE2 /* CountrySearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySearchService.swift; sourceTree = "<group>"; };
+		255F86E22C0B0408003B0CE2 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		255F86E42C0B0441003B0CE2 /* EmptyPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPlaceholderView.swift; sourceTree = "<group>"; };
+		255F86E62C0B05EF003B0CE2 /* FailedPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedPlaceholderView.swift; sourceTree = "<group>"; };
+		255F86E92C0B0649003B0CE2 /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
+		255F86EB2C0B06C3003B0CE2 /* RowTrailingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTrailingText.swift; sourceTree = "<group>"; };
+		255F86ED2C0B0C59003B0CE2 /* DateProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateProvider.swift; sourceTree = "<group>"; };
+		255F86EF2C0B0CA7003B0CE2 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		255F86F12C0B0F07003B0CE2 /* BluetoothDeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDeviceService.swift; sourceTree = "<group>"; };
+		255F86F42C0B3853003B0CE2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		258B7D3C2C0A1B3C0082C771 /* WrkSpotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WrkSpotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		258B7D3F2C0A1B3C0082C771 /* WrkSpotAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrkSpotAppApp.swift; sourceTree = "<group>"; };
-		258B7D412C0A1B3C0082C771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		258B7D432C0A1B3D0082C771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		258B7D452C0A1B3D0082C771 /* WrkSpotApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WrkSpotApp.entitlements; sourceTree = "<group>"; };
 		258B7D472C0A1B3D0082C771 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		258B7D5C2C0A20AF0082C771 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		258B7D5E2C0A20C30082C771 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		258B7D622C0A21240082C771 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		258B7D642C0A3E080082C771 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		258B7D652C0A3EB90082C771 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		258B7D672C0A3ECF0082C771 /* CountriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesListView.swift; sourceTree = "<group>"; };
+		258B7D692C0A40BB0082C771 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		258B7D6B2C0A42D40082C771 /* PopulationFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationFilter.swift; sourceTree = "<group>"; };
+		258B7D6F2C0A4BF30082C771 /* CountryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRow.swift; sourceTree = "<group>"; };
+		258B7D722C0A4E060082C771 /* SwiftUI+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+Ext.swift"; sourceTree = "<group>"; };
+		258B7D782C0A68CA0082C771 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		258B7D392C0A1B3C0082C771 /* Frameworks */ = {
+		255F86D22C0A8D87003B0CE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		258B7D392C0A1B3C0082C771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258B7D562C0A1BB30082C771 /* NetworkKit in Frameworks */,
+				258B7D522C0A1BB30082C771 /* DIKit in Frameworks */,
+				258B7D502C0A1BB30082C771 /* CoreKit in Frameworks */,
+				258B7D582C0A1BB30082C771 /* SerializationKit in Frameworks */,
+				258B7D542C0A1BB30082C771 /* LoggerKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		255F86CC2C0A85BE003B0CE2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				255F86F32C0B3531003B0CE2 /* Api */,
+				255F86F12C0B0F07003B0CE2 /* BluetoothDeviceService.swift */,
+				255F86E02C0A8F98003B0CE2 /* CountrySearchService.swift */,
+				255F86ED2C0B0C59003B0CE2 /* DateProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		255F86D62C0A8D87003B0CE2 /* WrkSpotAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				255F86D72C0A8D87003B0CE2 /* CountryListViewModelTest.swift */,
+				255F86EF2C0B0CA7003B0CE2 /* HomeViewModelTests.swift */,
+			);
+			path = WrkSpotAppTests;
+			sourceTree = "<group>";
+		};
+		255F86E82C0B061E003B0CE2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				255F86CA2C0A7F62003B0CE2 /* SearchView.swift */,
+				255F86E22C0B0408003B0CE2 /* PlaceholderView.swift */,
+				255F86E42C0B0441003B0CE2 /* EmptyPlaceholderView.swift */,
+				255F86E62C0B05EF003B0CE2 /* FailedPlaceholderView.swift */,
+				255F86E92C0B0649003B0CE2 /* FlagImage.swift */,
+				255F86EB2C0B06C3003B0CE2 /* RowTrailingText.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		255F86F32C0B3531003B0CE2 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				255F86CF2C0A8ABE003B0CE2 /* CountryApiURLRequest.swift */,
+				255F86CD2C0A85DD003B0CE2 /* CountryApiService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		258B7D332C0A1B3C0082C771 = {
 			isa = PBXGroup;
 			children = (
 				258B7D3E2C0A1B3C0082C771 /* WrkSpotApp */,
+				255F86D62C0A8D87003B0CE2 /* WrkSpotAppTests */,
 				258B7D3D2C0A1B3C0082C771 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				258B7D3C2C0A1B3C0082C771 /* WrkSpotApp.app */,
+				255F86D52C0A8D87003B0CE2 /* WrkSpotAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,10 +173,14 @@
 		258B7D3E2C0A1B3C0082C771 /* WrkSpotApp */ = {
 			isa = PBXGroup;
 			children = (
+				255F86F42C0B3853003B0CE2 /* README.md */,
 				258B7D3F2C0A1B3C0082C771 /* WrkSpotAppApp.swift */,
-				258B7D412C0A1B3C0082C771 /* ContentView.swift */,
-				258B7D432C0A1B3D0082C771 /* Assets.xcassets */,
-				258B7D452C0A1B3D0082C771 /* WrkSpotApp.entitlements */,
+				258B7D592C0A1C6D0082C771 /* Model */,
+				258B7D5A2C0A1C720082C771 /* View */,
+				258B7D5B2C0A1C750082C771 /* ViewModel */,
+				255F86CC2C0A85BE003B0CE2 /* Services */,
+				258B7D712C0A4DF80082C771 /* Others */,
+				258B7D6D2C0A4ADC0082C771 /* Resources */,
 				258B7D462C0A1B3D0082C771 /* Preview Content */,
 			);
 			path = WrkSpotApp;
@@ -69,9 +194,85 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		258B7D592C0A1C6D0082C771 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				258B7D5C2C0A20AF0082C771 /* Country.swift */,
+				258B7D5E2C0A20C30082C771 /* Media.swift */,
+				258B7D6B2C0A42D40082C771 /* PopulationFilter.swift */,
+				255F86DE2C0A8E44003B0CE2 /* WrkSpotError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		258B7D5A2C0A1C720082C771 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				255F86E82C0B061E003B0CE2 /* Components */,
+				258B7D7A2C0A76640082C771 /* List */,
+				258B7D652C0A3EB90082C771 /* HomeView.swift */,
+				258B7D782C0A68CA0082C771 /* HeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		258B7D5B2C0A1C750082C771 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				258B7D692C0A40BB0082C771 /* HomeViewModel.swift */,
+				258B7D622C0A21240082C771 /* CountryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		258B7D6D2C0A4ADC0082C771 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				258B7D452C0A1B3D0082C771 /* WrkSpotApp.entitlements */,
+				258B7D642C0A3E080082C771 /* countries.json */,
+				258B7D432C0A1B3D0082C771 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		258B7D712C0A4DF80082C771 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				258B7D722C0A4E060082C771 /* SwiftUI+Ext.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		258B7D7A2C0A76640082C771 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				258B7D672C0A3ECF0082C771 /* CountriesListView.swift */,
+				258B7D6F2C0A4BF30082C771 /* CountryRow.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		255F86D42C0A8D87003B0CE2 /* WrkSpotAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255F86DB2C0A8D87003B0CE2 /* Build configuration list for PBXNativeTarget "WrkSpotAppTests" */;
+			buildPhases = (
+				255F86D12C0A8D87003B0CE2 /* Sources */,
+				255F86D22C0A8D87003B0CE2 /* Frameworks */,
+				255F86D32C0A8D87003B0CE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255F86DA2C0A8D87003B0CE2 /* PBXTargetDependency */,
+			);
+			name = WrkSpotAppTests;
+			productName = WrkSpotAppTests;
+			productReference = 255F86D52C0A8D87003B0CE2 /* WrkSpotAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		258B7D3B2C0A1B3C0082C771 /* WrkSpotApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 258B7D4B2C0A1B3D0082C771 /* Build configuration list for PBXNativeTarget "WrkSpotApp" */;
@@ -85,6 +286,13 @@
 			dependencies = (
 			);
 			name = WrkSpotApp;
+			packageProductDependencies = (
+				258B7D4F2C0A1BB30082C771 /* CoreKit */,
+				258B7D512C0A1BB30082C771 /* DIKit */,
+				258B7D532C0A1BB30082C771 /* LoggerKit */,
+				258B7D552C0A1BB30082C771 /* NetworkKit */,
+				258B7D572C0A1BB30082C771 /* SerializationKit */,
+			);
 			productName = WrkSpotApp;
 			productReference = 258B7D3C2C0A1B3C0082C771 /* WrkSpotApp.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +307,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					255F86D42C0A8D87003B0CE2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 258B7D3B2C0A1B3C0082C771;
+					};
 					258B7D3B2C0A1B3C0082C771 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -113,20 +325,32 @@
 				Base,
 			);
 			mainGroup = 258B7D332C0A1B3C0082C771;
+			packageReferences = (
+				258B7D4E2C0A1BB30082C771 /* XCRemoteSwiftPackageReference "OpenSourceCoreKit" */,
+			);
 			productRefGroup = 258B7D3D2C0A1B3C0082C771 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				258B7D3B2C0A1B3C0082C771 /* WrkSpotApp */,
+				255F86D42C0A8D87003B0CE2 /* WrkSpotAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		255F86D32C0A8D87003B0CE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		258B7D3A2C0A1B3C0082C771 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258B7D6E2C0A4AEC0082C771 /* countries.json in Resources */,
 				258B7D482C0A1B3D0082C771 /* Preview Assets.xcassets in Resources */,
 				258B7D442C0A1B3D0082C771 /* Assets.xcassets in Resources */,
 			);
@@ -135,18 +359,95 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		255F86D12C0A8D87003B0CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255F86D82C0A8D87003B0CE2 /* CountryListViewModelTest.swift in Sources */,
+				255F86F02C0B0CA7003B0CE2 /* HomeViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		258B7D382C0A1B3C0082C771 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				258B7D422C0A1B3C0082C771 /* ContentView.swift in Sources */,
+				255F86EC2C0B06C3003B0CE2 /* RowTrailingText.swift in Sources */,
+				255F86E72C0B05EF003B0CE2 /* FailedPlaceholderView.swift in Sources */,
+				255F86E12C0A8F98003B0CE2 /* CountrySearchService.swift in Sources */,
+				258B7D5D2C0A20AF0082C771 /* Country.swift in Sources */,
+				255F86E52C0B0441003B0CE2 /* EmptyPlaceholderView.swift in Sources */,
+				258B7D5F2C0A20C30082C771 /* Media.swift in Sources */,
+				258B7D6A2C0A40BB0082C771 /* HomeViewModel.swift in Sources */,
+				255F86D02C0A8ABE003B0CE2 /* CountryApiURLRequest.swift in Sources */,
+				258B7D732C0A4E060082C771 /* SwiftUI+Ext.swift in Sources */,
+				255F86E32C0B0408003B0CE2 /* PlaceholderView.swift in Sources */,
+				258B7D662C0A3EB90082C771 /* HomeView.swift in Sources */,
+				258B7D6C2C0A42D40082C771 /* PopulationFilter.swift in Sources */,
+				255F86DF2C0A8E44003B0CE2 /* WrkSpotError.swift in Sources */,
+				255F86CE2C0A85DD003B0CE2 /* CountryApiService.swift in Sources */,
+				255F86EE2C0B0C59003B0CE2 /* DateProvider.swift in Sources */,
+				258B7D792C0A68CA0082C771 /* HeaderView.swift in Sources */,
+				255F86CB2C0A7F62003B0CE2 /* SearchView.swift in Sources */,
+				255F86EA2C0B0649003B0CE2 /* FlagImage.swift in Sources */,
 				258B7D402C0A1B3C0082C771 /* WrkSpotAppApp.swift in Sources */,
+				258B7D702C0A4BF30082C771 /* CountryRow.swift in Sources */,
+				258B7D682C0A3ECF0082C771 /* CountriesListView.swift in Sources */,
+				258B7D632C0A21240082C771 /* CountryViewModel.swift in Sources */,
+				255F86F22C0B0F07003B0CE2 /* BluetoothDeviceService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		255F86DA2C0A8D87003B0CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 258B7D3B2C0A1B3C0082C771 /* WrkSpotApp */;
+			targetProxy = 255F86D92C0A8D87003B0CE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		255F86DC2C0A8D87003B0CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.full.WrkSpotAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WrkSpotApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WrkSpotApp";
+			};
+			name = Debug;
+		};
+		255F86DD2C0A8D87003B0CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.full.WrkSpotAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WrkSpotApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WrkSpotApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		258B7D492C0A1B3D0082C771 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -266,12 +567,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WrkSpotApp/WrkSpotApp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = WrkSpotApp/Resources/WrkSpotApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WrkSpotApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "uses bluetooth for local device connectoins";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -289,6 +592,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.full.WrkSpotApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -302,12 +606,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WrkSpotApp/WrkSpotApp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = WrkSpotApp/Resources/WrkSpotApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WrkSpotApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "uses bluetooth for local device connectoins";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -325,6 +631,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.full.WrkSpotApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -336,6 +643,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		255F86DB2C0A8D87003B0CE2 /* Build configuration list for PBXNativeTarget "WrkSpotAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255F86DC2C0A8D87003B0CE2 /* Debug */,
+				255F86DD2C0A8D87003B0CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		258B7D372C0A1B3C0082C771 /* Build configuration list for PBXProject "WrkSpotApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -355,6 +671,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		258B7D4E2C0A1BB30082C771 /* XCRemoteSwiftPackageReference "OpenSourceCoreKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/karthikAdaptavant/OpenSourceCoreKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		258B7D4F2C0A1BB30082C771 /* CoreKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 258B7D4E2C0A1BB30082C771 /* XCRemoteSwiftPackageReference "OpenSourceCoreKit" */;
+			productName = CoreKit;
+		};
+		258B7D512C0A1BB30082C771 /* DIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 258B7D4E2C0A1BB30082C771 /* XCRemoteSwiftPackageReference "OpenSourceCoreKit" */;
+			productName = DIKit;
+		};
+		258B7D532C0A1BB30082C771 /* LoggerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 258B7D4E2C0A1BB30082C771 /* XCRemoteSwiftPackageReference "OpenSourceCoreKit" */;
+			productName = LoggerKit;
+		};
+		258B7D552C0A1BB30082C771 /* NetworkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 258B7D4E2C0A1BB30082C771 /* XCRemoteSwiftPackageReference "OpenSourceCoreKit" */;
+			productName = NetworkKit;
+		};
+		258B7D572C0A1BB30082C771 /* SerializationKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 258B7D4E2C0A1BB30082C771 /* XCRemoteSwiftPackageReference "OpenSourceCoreKit" */;
+			productName = SerializationKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 258B7D342C0A1B3C0082C771 /* Project object */;
 }
