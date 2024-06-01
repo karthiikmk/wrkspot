@@ -73,7 +73,6 @@ The project is fully documented using DocC. To view the documentation:
    
 ![image](https://github.com/karthiikmk/wrkspot/assets/15947675/c31647c9-2fd6-4abe-83da-e37cbedc182b)
 
-
 ### Testing
 
 The ViewModels are fully unit tested, ensuring the business logic is reliable and the app is maintainable. You can generate a code coverage report to see the extent of the tests.
