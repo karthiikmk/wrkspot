@@ -37,9 +37,9 @@ The code follows SOLID principles, which helps keep the system scalable, maintai
 - **ListView State Management**: The app effectively handles different states like loading, empty, failure, and loaded.
 
   <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/2d2f9cbe-6960-4db5-9c96-94187ad14bcc" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.34" width="200" height="420">
-  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/3fa02723-e24f-4b04-9566-f4e6e17133a1" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.40" width="200" height="420">
-  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/4524e838-375d-45e6-82e6-5e754aa33a3d" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.40" width="200" height="420">
-  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/c8b49f9c-348b-4fb3-9e3d-b0a85bf97f8f" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.40" width="200" height="420">
+  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/4f54d438-0a4b-4f1e-9d9d-ceb04c962ad0" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.40" width="200" height="420">
+  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/b5b2dd92-5a77-4d0d-b1ab-02edd008fa6b" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.40" width="200" height="420">
+  <img src="https://github.com/karthiikmk/wrkspot/assets/15947675/cd2fabe0-a319-4e21-adc9-bd46d57aeefa" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.40" width="200" height="420">
 
 - **Population Filtering**: Users can filter countries based on population sizes.
   
@@ -70,9 +70,9 @@ The code follows SOLID principles, which helps keep the system scalable, maintai
 The project is fully documented using DocC. To view the documentation:
 1. Build the project as described above.
 2. Access the documentation through Xcode to get detailed insights into the codebase.
+   
+![image](https://github.com/karthiikmk/wrkspot/assets/15947675/c31647c9-2fd6-4abe-83da-e37cbedc182b)
 
-<img src="https://github.com/karthiikmk/wrkspot/assets/15947675/031b503f-dfcf-40c8-b9f6-71cfcbe4765b" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.34" width="300" height="500"> 
-<img src="https://github.com/karthiikmk/wrkspot/assets/15947675/92d81c6b-978e-420e-bd1a-0928216dd538" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-02-16 at 12.35.34" width="600" height="500"> 
 
 ### Testing
 
