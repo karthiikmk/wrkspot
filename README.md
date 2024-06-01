@@ -61,7 +61,7 @@ The code follows SOLID principles, which helps keep the system scalable, maintai
 ## Running the Project
 
 1. Clone the repository.
-2. Open the project in Xcode.
+2. Open the project in Xcode 15.3.
 3. Build the project to generate documentation.
    - Go to **Product** → **Build for** → **Documentation** (or use `Ctrl + Shift + Cmd + D`).
 
@@ -83,6 +83,10 @@ The ViewModels are fully unit tested, ensuring the business logic is reliable an
 
 All views and components support previews in the Xcode canvas, allowing for easy UI development and iteration.
 ![image](https://github.com/karthiikmk/wrkspot/assets/15947675/5983d071-52d9-4d53-b2ea-8eb25e07a3e4)
+
+### Demo Video
+
+https://github.com/karthiikmk/wrkspot/assets/15947675/0686e2b1-19db-4b5a-a4f9-1f173f1058f2
 
 
 ## Conclusion
