@@ -47,6 +47,8 @@ struct CountriesListView: View {
         VStack(spacing: STANDARD_SPACING) {
             ProgressView().scaleEffect(1.5, anchor: .center)
             Text("Fetching countries..")
+                .font(.title)
+                .foregroundStyle(Color.wrkspotTitle)
         }
     }
 

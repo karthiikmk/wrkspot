@@ -15,8 +15,8 @@ struct EmptyPlaceholderView: View {
         PlaceholderView(
             icon: {
                 Image(systemName: "tray")
-                    .font(.largeTitle)
-                    .foregroundColor(Color.gray)
+                    .font(.title)
+                    .foregroundColor(Color.wrkspotTitle)
             },
             title: "List is empty",
             description: ""

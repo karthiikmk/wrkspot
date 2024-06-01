@@ -30,8 +30,10 @@ struct PlaceholderView<Icon: View>: View {
             icon()
             Text(title)
                 .font(.title)
+                .foregroundStyle(Color.wrkspotTitle)
             Text(description)
                 .font(.subheadline)
+                .foregroundStyle(Color.wrkspotTitle)
         }
     }
 }
